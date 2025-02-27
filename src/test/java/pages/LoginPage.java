@@ -44,12 +44,22 @@ public class LoginPage extends LocatorsReader{
 	}
 	
 	public void ExploreItem() {
-		WebElement item = driver.findElement(By.xpath(propi.getProperty("searchPage.Obj")));
-		item.click();
+		WebElement item = driver.findElement(By.cssSelector(propi.getProperty("searchPage.Obj")));
+		if (item.isDisplayed()) {
+            item.click();
+            System.out.println("Item clicked successfully.");
+        } else {
+            System.out.println("No items found in search results.");
+        }
 	}
 	public void Addtem() {
 		WebElement add = driver.findElement(By.xpath(propi.getProperty("ProductPage.add")));
-		add.click();
+		if (add.isDisplayed()) {
+            add.click();
+            System.out.println("Item added to the cart.");
+        } else {
+            System.out.println("Add to Cart button not found.");
+        }
 	}
 	
 }

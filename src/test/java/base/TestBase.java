@@ -47,12 +47,12 @@ public class TestBase
         System.out.println("Browser opened.");
 	}
 	
-	@AfterTest
-	public void tearDown()
-	{
-		driver.quit();
-		System.out.println("Browser closed.");
-	}
+//	@AfterTest
+//	public void tearDown()
+//	{
+//		driver.quit();
+//		System.out.println("Browser closed.");
+//	}
 	
 	
 	
