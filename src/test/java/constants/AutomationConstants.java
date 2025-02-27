@@ -2,7 +2,7 @@ package constants;
 
 public class AutomationConstants {
 
-	public static final String loginURL = "https://www.amazon.com/";
+	public static final String loginURL = "https://www.amazon.in/";
 
 	public static final String SearchURL = "https://www.amazon.com/s?k=Electronic+Gadget&ref=nb_sb_noss";
 	

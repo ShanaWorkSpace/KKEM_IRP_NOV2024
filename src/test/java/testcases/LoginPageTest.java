@@ -39,7 +39,8 @@ public class LoginPageTest extends TestBase{
 		
 		@Test(priority=3)
 		public void explore() {
-			log.ExploreItem();			
+			log.ExploreItem();	
+			
 		    System.out.println("Test:Item Search Verification passed");
 		    }
 		
