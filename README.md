@@ -25,15 +25,6 @@ Test Steps
 3. Add Product to Cart
 - Browse the search results and select a product.  
 - Click the Add to Cart button.  
-4. Go to Cart
-- Click on the Cart Icon(🛒) in the top-right corner of the page.  
-- Verify that the added product appears in the cart.  
 
-Expected Outcome
-- The product should be successfully added to the cart.  
-- The cart should display the correct product details.  
 
-Notes
-- This process may vary slightly based on region and user settings.  
-- If CAPTCHA appears frequently, try clearing browser cookies or using Incognito mode.  
 
