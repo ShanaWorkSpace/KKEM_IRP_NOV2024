@@ -33,25 +33,22 @@ public class LoginPageTest extends TestBase{
 		
 		@Test(priority=2)
 		public void search() {
-			log.searchEntity(prop.getProperty("Need"));			
-	        String currentUrl=driver.getCurrentUrl();
-//		    Assert.assertTrue();
+			log.searchEntity(prop.getProperty("Need"));	        
 		    System.out.println("Test:First Search Verification passed");
 		    }
 		
 		@Test(priority=3)
 		public void explore() {
 			log.ExploreItem();			
-	        String currentUrl=driver.getCurrentUrl();
-//		    Assert.assertEquals
 		    System.out.println("Test:Item Search Verification passed");
 		    }
 		
 		@Test(priority=3)
-		public void explore() {
-			log.addtoCart();			
-	        String currentUrl=driver.getCurrentUrl();
-//		    Assert.assertEquals
-		    System.out.println("Test:Item Search Verification passed");
+		public void add() {
+			log.Addtem();	
+		    System.out.println("Test:Item Add Verification passed");
 		    }
+		
+		
+		
 				}

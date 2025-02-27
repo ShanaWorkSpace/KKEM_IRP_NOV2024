@@ -6,8 +6,9 @@
       <class name="testcases.LoginPageTest">
         <methods>
           <include name="page_init"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="explore"/>
+          <include name="add"/>
         </methods>
       </class> <!-- testcases.LoginPageTest -->
     </classes>

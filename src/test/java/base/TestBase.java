@@ -40,14 +40,14 @@ public class TestBase
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.get(prop.getProperty("URL"));
 	
         System.out.println("Browser opened.");
 	}
 	
-//	@AfterTest
+	@AfterTest
 	public void tearDown()
 	{
 		driver.quit();

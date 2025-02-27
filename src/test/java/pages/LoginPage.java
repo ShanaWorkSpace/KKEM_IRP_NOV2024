@@ -44,7 +44,12 @@ public class LoginPage extends LocatorsReader{
 	}
 	
 	public void ExploreItem() {
-		WebElement item = driver.findElement(By.xpath(propi.getProperty("searchPage.Ob")));
+		WebElement item = driver.findElement(By.xpath(propi.getProperty("searchPage.Obj")));
 		item.click();
 	}
+	public void Addtem() {
+		WebElement add = driver.findElement(By.xpath(propi.getProperty("ProductPage.add")));
+		add.click();
+	}
+	
 }
