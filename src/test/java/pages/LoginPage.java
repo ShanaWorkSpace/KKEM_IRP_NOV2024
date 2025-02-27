@@ -53,6 +53,7 @@ public class LoginPage extends LocatorsReader{
         }
 	}
 	public void Addtem() {
+
 		WebElement add = driver.findElement(By.xpath(propi.getProperty("ProductPage.add")));
 		if (add.isDisplayed()) {
             add.click();
